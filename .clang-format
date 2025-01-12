@@ -1,0 +1,6 @@
+IndentWidth: 4
+BreakBeforeBraces: Allman
+ColumnLimit: 80
+AllowShortBlocksOnASingleLine: Empty
+AllowShortFunctionsOnASingleLine: None
+PointerAlignment: Left
