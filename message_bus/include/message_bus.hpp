@@ -18,6 +18,7 @@ class MessageBus : std::enable_shared_from_this<MessageBus>
     void publish_message(const Message msg);
 
   private:
+    // TODO: Use a message queue
     std::vector<std::unique_ptr<System>> systems;
 };
 } // namespace bus

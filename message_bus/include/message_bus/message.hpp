@@ -2,18 +2,13 @@
 #pragma once
 
 #include <any>
+#include <cstdint>
 
 namespace bus
 {
-enum class MessageType
-{
-    This,
-    That
-};
-
 struct Message
 {
-    MessageType type;
+    std::int32_t type;
     std::any data;
 };
 } // namespace bus
